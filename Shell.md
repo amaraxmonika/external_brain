@@ -10,7 +10,7 @@ fi
 ```
 
 ## Do something if a pattern match exists
-```
+```bash
 if pyenv virtualenvs | grep --quiet "test-env"; then
     echo "test-env virtualenv exist :)"
 else
